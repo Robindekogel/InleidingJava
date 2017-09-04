@@ -12,6 +12,8 @@ Voorbeeld 2.1
 
 //importeer de benodigde klassen uit de Java bibliotheek
 
+import sun.text.resources.ro.CollationData_ro;
+
 import java.applet.Applet;
 import java.awt.*;
 
@@ -26,10 +28,21 @@ public class Show extends Applet {
     //een methode die de inhoud van het scherm tekent
     public void paint(Graphics g) {
 
+
     g.setColor(Color.red);
-    g.drawLine(50, 200, 270,200);
-    g.drawLine(50,200,170,100);
-    g.drawLine(170,100,270,200);
+    g.fillRect(50,100,100,30);
+    g.setColor(Color.white);
+    g.fillRect(50,130,100,30);
+    g.setColor(Color.blue);
+    g.fillRect(50,160,100,30);
+    g.setColor(Color.black );
+    g.drawRect(50,100,100,90);
+    g.drawLine(50,100,50,300);
+    g.setColor(Color.orange);
+    g.fillRoundRect(45,90,10,10,10,10);
+    g.drawRoundRect(45,90,10,10,10,10);
+
+
 
 
     }
