@@ -29,18 +29,11 @@ public class Huis extends Applet {
     public void paint(Graphics g) {
 
 
-        g.setColor(Color.red);
-        g.fillRect(50,100,100,30);
-        g.setColor(Color.white);
-        g.fillRect(50,130,100,30);
-        g.setColor(Color.blue);
-        g.fillRect(50,160,100,30);
-        g.setColor(Color.black );
-        g.drawRect(50,100,100,90);
-        g.drawLine(50,100,50,300);
-        g.setColor(Color.orange);
-        g.fillRoundRect(45,90,10,10,10,10);
-        g.drawRoundRect(45,90,10,10,10,10);
+    g.setColor(Color.black);
+    g.drawRect(100,100,100,100);
+    g.drawLine(100,100,150,50);
+    g.drawLine(150,50,200,100);
+    g.drawRect(115,120,15,15);
 
 
 
