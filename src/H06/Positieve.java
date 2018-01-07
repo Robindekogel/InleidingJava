@@ -24,6 +24,7 @@ public class Positieve extends Applet {
 
 
     public void init() {
+
         a = 938920697;
         b = 574752652;
         uitkomst = ( a * b );

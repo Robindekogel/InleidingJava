@@ -1,8 +1,5 @@
 package H10;
 
-
-
-
         import java.awt.*;
         import java.applet.*;
         import java.awt.event.*;
@@ -29,7 +26,6 @@ public class Opdracht10_1 extends Applet {
 
     class VakListener implements ActionListener {
         public void actionPerformed( ActionEvent e ) {
-
             if (s < Integer.parseInt( tekstvak.getText())){
             s = Integer.parseInt( tekstvak.getText());
             repaint();
